@@ -57,6 +57,10 @@ public class Fracture : MonoBehaviour
             }
         }
     }
+    
+    public void ForceFracture(){
+        this.ComputeFracture();
+    }
 
     void OnCollisionEnter(Collision collision)
     {
