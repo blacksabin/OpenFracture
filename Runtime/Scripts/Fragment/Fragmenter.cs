@@ -72,7 +72,6 @@ public static class Fragmenter
                            saveToDisk,
                            saveFolderPath,
                            options.detectFloatingFragments,
-                           options.layerOut,
                            ref i);
         }
     }
@@ -186,7 +185,6 @@ public static class Fragmenter
                        false,
                        "",
                        options.detectFloatingFragments,
-                       options.layerOut,
                        ref i);
 
         CreateFragment(bottomSlice,
@@ -196,7 +194,6 @@ public static class Fragmenter
                        false,
                        "",
                        options.detectFloatingFragments,
-                       options.layerOut,
                        ref i);
     }
 
