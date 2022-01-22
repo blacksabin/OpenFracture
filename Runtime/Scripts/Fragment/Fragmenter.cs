@@ -138,7 +138,6 @@ public static class Fragmenter
                            false,
                            "",
                            options.detectFloatingFragments,
-                           options.layerOut,
                            ref i);
         }
 
@@ -212,7 +211,6 @@ public static class Fragmenter
                                        bool saveToDisk,
                                        string saveFolderPath,
                                        bool detectFloatingFragments,
-                                       int layerOut,
                                        ref int i)
     {
         // If there is no mesh data, don't create an object
@@ -246,7 +244,6 @@ public static class Fragmenter
             fragment.transform.localPosition = Vector3.zero;
             fragment.transform.localRotation = Quaternion.identity;
             fragment.transform.localScale = sourceObject.transform.localScale;
-            fragment.layer = layerOut;
 
             meshes[k].name = System.Guid.NewGuid().ToString();
 
