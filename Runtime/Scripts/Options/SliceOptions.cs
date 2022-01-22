@@ -26,9 +26,6 @@ public class SliceOptions
 
     [Tooltip("Enable if re-slicing should also invoke the callback functions.")]
     public bool invokeCallbacks;
-    
-    [Tooltip("Layer the fragments will be set to upon creation")]
-    public int layerOut;
 
     public SliceOptions()
     {
@@ -38,6 +35,5 @@ public class SliceOptions
         this.textureScale = Vector2.one;
         this.textureOffset = Vector2.zero;
         this.invokeCallbacks = false;
-        this.layerOut = 0;
     }
 }
