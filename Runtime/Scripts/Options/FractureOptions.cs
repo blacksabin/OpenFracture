@@ -34,9 +34,6 @@ public class FractureOptions
 
     [Tooltip("Offset to apply to texture coordinates")]
     public Vector2 textureOffset;
-    
-    [Tooltip("Layer the fragments will be set to upon creation")]
-    public int layerOut;
 
     public FractureOptions()
     {
@@ -49,6 +46,5 @@ public class FractureOptions
         this.insideMaterial = null;
         this.textureScale = Vector2.one;
         this.textureOffset = Vector2.zero;
-        this.layerOut = 1;
     }
 }
