@@ -1,5 +1,5 @@
 {
-    "name": "OFRuntimeAssembly",
+    "name": "OpenFracture.Runtime",
     "rootNamespace": "",
     "references": [],
     "includePlatforms": [],
