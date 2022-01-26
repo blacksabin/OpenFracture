@@ -1,5 +1,5 @@
 {
-    "name": "RuntimeAssembly",
+    "name": "OFRuntimeAssembly",
     "rootNamespace": "",
     "references": [],
     "includePlatforms": [],
